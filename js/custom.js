@@ -41,17 +41,6 @@ ui.createComponent('product', {
           'margin': '0 0 10px 0!important',
           'box-shadow': '0 1px 4px rgba(0,0,0,.1),0 2px 4px rgba(0,0,0,.1)',
 
-          ':before': {
-            'content': '""',
-            'position': 'absolute',
-            'top': '0',
-            'left': '0',
-            'width': '100%',
-            'height': '100%',
-            'background': 'linear-gradient(to bottom,#fff 0,#000 100%)',
-            'z-index': '-1',
-            'opacity': '.1' },
-
           ':hover': {
             'background-color': '#3498db',
             'box-shadow': '3px 3px 0 #2980b9' },
