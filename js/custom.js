@@ -21,34 +21,15 @@ ui.createComponent('product', {
       templates: {
         button: '<button class="{{data.classes.product.button}} {{data.buttonClass}}">' +
         '{{data.buttonText}}' +
-        '<span class="{{data.classes.product.prices}}">' +
-        '<span class="{{data.classes.product.compareAt}}">{{data.formattedCompareAtPrice}}</span>' +
-        '<span class="{{data.classes.product.price}}">{{data.formattedPrice}}</span>' +
         '</span>' +
         '</button>' },
 
       text: {
-        button: 'Buy Now' },
+        button: 'Køb virksomhedslicens' },
 
       styles: {
         product: {
           'text-align': 'left' },
-
-        prices: {
-          'display': 'inline-block',
-          'margin-bottom': 0,
-          'margin-left': '10px',
-          'padding-left': '10px',
-          'border-left': '1px solid white' },
-
-        price: {
-          'color': 'white',
-          'display': 'inline-block',
-          'padding-left': '8px' },
-
-        compareAt: {
-          'display': 'inline-block',
-          'color': 'white' },
 
         button: {
           'background-color': '#1abc9c',
