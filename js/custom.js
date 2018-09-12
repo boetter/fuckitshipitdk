@@ -25,14 +25,14 @@ ui.createComponent('product', {
         '</button>' },
 
       text: {
-        button: 'Køb virksomhedslicens' },
+        button: 'Køb licens' },
 
       styles: {
         product: {
           'text-align': 'left' },
 
         button: {
-          'font-family': 'Nunito,sans-serif',
+          'font-family': 'Montserrat,sans-serif',
           'font-weight': '600',
           'font-size': '16px',
           'background-color': '#4caf50',
