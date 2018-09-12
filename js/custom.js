@@ -1,13 +1,13 @@
 var client = ShopifyBuy.buildClient({
-  apiKey: 'bf081e860bc9dc1ce0654fdfbc20892d',
-  domain: 'embeds.myshopify.com',
+  apiKey: '966ac59eda50629221e219bb881a9c79',
+  domain: 'fuck-it-ship-it.myshopify.com',
   appId: '6' });
 
 
 var ui = ShopifyBuy.UI.init(client);
 
 ui.createComponent('product', {
-  id: 3615122115,
+  id: 1896178810938,
   node: document.getElementById('product'),
   options: {
     product: {
