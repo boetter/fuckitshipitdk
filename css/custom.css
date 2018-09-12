@@ -1,0 +1,22 @@
+.price{
+	font-size: 80px;
+}
+		.slides,
+		.slides p {
+			font-family: 'Nunito', sans-serif;
+			font-weight: 300;
+		}
+		.slides h1, 
+		.slides h2, 
+		.slides h3, 
+		.slides h4, 
+		.slides h5, 
+		.slides h6 {
+			font-family: 'Nunito', sans-serif;
+			font-weight: 300;
+		}
+		.slides .button,
+		.slides .slides-form {
+			font-family: 'Nunito', sans-serif;
+			font-weight: 600;
+		}
