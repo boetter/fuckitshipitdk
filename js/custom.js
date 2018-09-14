@@ -38,5 +38,5 @@ ui.createComponent('product', {
           'background-color': '#4caf50',
           'border-radius': '4px',
           'padding': '16px 24px 17px',
-          'margin': '0 0 10px 0!important',
+          'margin': '0',
           'box-shadow': '0 1px 4px rgba(0,0,0,.1),0 2px 4px rgba(0,0,0,.1)' } } } } });
