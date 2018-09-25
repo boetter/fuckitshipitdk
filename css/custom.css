@@ -21,3 +21,19 @@
 			font-family: 'Helvetica', sans-serif;
 			font-weight: 600;
 		}
+
+
+.stabelbg {
+	background-image:url(../assets/img/stabel1.jpg);
+	background-position:right !important;
+	background-repeat:no-repeat !important;
+	background-size:contain !important;
+}
+
+@media (min-width: 1px) and (max-width: 1199px) {
+
+      .stabelbg {
+        background-image: none !important;
+    }
+
+}
